@@ -22,7 +22,7 @@ export const projects: Project[] = [
     title: "NOLENN",
     description: "企業の強み・リスクをAIが要約するウェブアプリケーション。",
     year: "2025",
-    tags: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Firebase", "Vercel"],
+    tags: ["Next.js", "React", "TypeScript", "Firebase", "Vercel"],
     link: "https://www.nolenn.com/",
   },
   {

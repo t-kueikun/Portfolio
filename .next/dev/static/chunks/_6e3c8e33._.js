@@ -29,7 +29,6 @@ const projects = [
             "Next.js",
             "React",
             "TypeScript",
-            "Tailwind CSS",
             "Firebase",
             "Vercel"
         ],
@@ -129,41 +128,142 @@ __turbopack_context__.s([
 const travelHistory = [
     {
         id: "1",
-        location: "京都",
+        location: "大阪",
         country: "日本",
-        date: "2024年3月",
-        description: "古都の美しい寺院と伝統文化を体験",
-        image: "/traditional-japanese-garden-zen.jpg",
+        date: "2024年4月",
+        image: "/IMG_2812.webp",
         highlights: [
-            "金閣寺",
-            "伏見稲荷大社",
-            "嵐山"
+            "道頓堀"
         ]
     },
     {
         id: "2",
-        location: "東京",
+        location: "北陸",
         country: "日本",
-        date: "2024年1月",
-        description: "最先端のテクノロジーと伝統が融合する都市",
-        image: "/modern-tokyo-cityscape-night.jpg",
+        date: "2024年8月",
+        image: "/toyama.webp",
         highlights: [
-            "渋谷スクランブル交差点",
-            "浅草寺",
-            "チームラボ"
+            "黒部ダム"
         ]
     },
     {
         id: "3",
-        location: "パリ",
-        country: "フランス",
-        date: "2023年10月",
-        description: "芸術とファッションの街を散策",
-        image: "/paris-eiffel-tower-sunset.jpg",
+        location: "伊予市",
+        country: "日本",
+        date: "2024年11月",
+        image: "/Iyoshi.webp",
         highlights: [
-            "エッフェル塔",
-            "ルーヴル美術館",
-            "モンマルトル"
+            "下灘駅"
+        ]
+    },
+    {
+        id: "4",
+        location: "京都",
+        country: "日本",
+        date: "2024年12月",
+        image: "/Kyoto.webp",
+        highlights: [
+            "清水寺"
+        ]
+    },
+    {
+        id: "5",
+        location: "福岡",
+        country: "日本",
+        date: "2025年1月",
+        image: "/Fukuoka-Apple.webp",
+        highlights: [
+            "Apple Store 福岡"
+        ]
+    },
+    {
+        id: "6",
+        location: "秋田",
+        country: "日本",
+        date: "2025年2月",
+        image: "/Akita.webp",
+        highlights: [
+            "秋田駅前"
+        ]
+    },
+    {
+        id: "7",
+        location: "マーチソン滝",
+        country: "ウガンダ",
+        date: "2025年3月",
+        image: "/Uganda.webp",
+        highlights: [
+            "マーチソン・フォールズ国立公園"
+        ]
+    },
+    {
+        id: "8",
+        location: "ドーハ",
+        country: "カタール",
+        date: "2025年3月",
+        image: "/doha.webp",
+        highlights: [
+            "カタール国立博物館"
+        ]
+    },
+    {
+        id: "9",
+        location: "夢洲",
+        country: "日本",
+        date: "2025年5月",
+        image: "/expo-1.webp",
+        highlights: [
+            "大阪関西万博2025"
+        ]
+    },
+    {
+        id: "10",
+        location: "大阪",
+        country: "日本",
+        date: "2025年6月",
+        image: "/tennoji.webp",
+        highlights: [
+            "あべのハルカス"
+        ]
+    },
+    {
+        id: "11",
+        location: "兵庫北部",
+        country: "日本",
+        date: "2025年7月",
+        image: "/Hyogo.webp",
+        highlights: [
+            "鎧駅"
+        ]
+    },
+    {
+        id: "12",
+        location: "バンコク",
+        country: "タイ",
+        date: "2025年8月",
+        image: "/Bangkok.webp",
+        highlights: [
+            "バンコク"
+        ]
+    },
+    {
+        id: "13",
+        location: "夢洲",
+        country: "日本",
+        date: "2025年9月",
+        image: "/expo-2.webp",
+        highlights: [
+            "大阪関西万博2025"
+        ]
+    },
+    {
+        id: "14",
+        location: "双葉町",
+        country: "日本",
+        date: "2025年10月",
+        image: "/namie.webp",
+        highlights: [
+            "双葉町"
         ]
     }
 ];
@@ -552,50 +652,40 @@ function Navigation() {
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$7_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "max-w-6xl mx-auto px-6 lg:px-8 py-4",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$7_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: `relative rounded-full border transition-all duration-300 ${scrolled ? "border-white/60 bg-white/12 backdrop-blur-xl shadow-[0_18px_90px_-60px_rgba(0,0,0,0.65)]" : "border-white/30 bg-white/6 backdrop-blur-lg shadow-[0_10px_40px_-40px_rgba(0,0,0,0.55)]"}`,
+                className: `relative overflow-hidden rounded-full border backdrop-blur-xl ${scrolled ? "border-white/60 bg-white/12 shadow-[0_14px_60px_-45px_rgba(0,0,0,0.5)]" : "border-white/40 bg-white/6 shadow-[0_10px_40px_-40px_rgba(0,0,0,0.35)]"}`,
+                style: {
+                    height: 64,
+                    WebkitBackdropFilter: "blur(10px)"
+                },
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$7_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "pointer-events-none absolute inset-0 rounded-full mix-blend-screen opacity-75 [mask-image:radial-gradient(160%_180%_at_0%_50%,black,transparent),radial-gradient(160%_180%_at_100%_50%,black,transparent)] bg-[radial-gradient(circle_at_0%_50%,rgba(255,255,255,0.9),rgba(255,255,255,0)_55%),radial-gradient(circle_at_100%_50%,rgba(255,255,255,0.9),rgba(255,255,255,0)_55%)] blur-lg"
+                        className: "pointer-events-none absolute inset-0 rounded-full mix-blend-screen opacity-60 [mask-image:radial-gradient(130%_160%_at_0%_50%,black,transparent),radial-gradient(130%_160%_at_100%_50%,black,transparent)] bg-[radial-gradient(circle_at_0%_50%,rgba(255,255,255,0.85),rgba(255,255,255,0)_55%),radial-gradient(circle_at_100%_50%,rgba(255,255,255,0.85),rgba(255,255,255,0)_55%)] blur-md"
                     }, void 0, false, {
                         fileName: "[project]/components/navigation.tsx",
                         lineNumber: 32,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$7_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "pointer-events-none absolute inset-0 rounded-full opacity-25 bg-[radial-gradient(180%_220%_at_0%_60%,rgba(0,200,255,0.18),transparent),radial-gradient(180%_220%_at_100%_40%,rgba(255,120,180,0.18),transparent)] blur-2xl"
+                        className: "pointer-events-none absolute inset-0 rounded-full bg-linear-to-b from-white/10 via-white/4 to-transparent"
                     }, void 0, false, {
                         fileName: "[project]/components/navigation.tsx",
                         lineNumber: 33,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$7_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "pointer-events-none absolute inset-0 rounded-full bg-linear-to-b from-white/12 via-white/6 to-transparent"
-                    }, void 0, false, {
-                        fileName: "[project]/components/navigation.tsx",
-                        lineNumber: 34,
-                        columnNumber: 11
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$7_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "pointer-events-none absolute inset-0 rounded-full opacity-25 [mask-image:radial-gradient(90%_90%_at_50%_50%,black,transparent)] bg-[radial-gradient(circle_at_50%_50%,rgba(255,255,255,0.25),rgba(255,255,255,0)_60%)] blur-sm"
-                    }, void 0, false, {
-                        fileName: "[project]/components/navigation.tsx",
-                        lineNumber: 35,
-                        columnNumber: 11
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$7_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "relative flex items-center justify-between px-6 py-4",
+                        className: "relative flex h-full items-center justify-between px-6",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$7_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$7_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                 href: "/",
-                                className: "text-sm font-medium hover:opacity-70 transition-opacity",
+                                className: "text-sm font-medium hover:opacity-80 transition-opacity",
                                 children: "Portfolio"
                             }, void 0, false, {
                                 fileName: "[project]/components/navigation.tsx",
-                                lineNumber: 38,
+                                lineNumber: 36,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$7_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "flex items-center gap-8",
+                                className: "flex items-center gap-7",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$7_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$7_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                         href: "/work",
@@ -603,7 +693,7 @@ function Navigation() {
                                         children: "Work"
                                     }, void 0, false, {
                                         fileName: "[project]/components/navigation.tsx",
-                                        lineNumber: 43,
+                                        lineNumber: 41,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$7_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$7_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -612,7 +702,7 @@ function Navigation() {
                                         children: "Photos"
                                     }, void 0, false, {
                                         fileName: "[project]/components/navigation.tsx",
-                                        lineNumber: 51,
+                                        lineNumber: 49,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$7_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$7_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -621,7 +711,7 @@ function Navigation() {
                                         children: "Travel"
                                     }, void 0, false, {
                                         fileName: "[project]/components/navigation.tsx",
-                                        lineNumber: 59,
+                                        lineNumber: 57,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$7_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$7_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -630,19 +720,19 @@ function Navigation() {
                                         children: "Contact"
                                     }, void 0, false, {
                                         fileName: "[project]/components/navigation.tsx",
-                                        lineNumber: 67,
+                                        lineNumber: 65,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/navigation.tsx",
-                                lineNumber: 42,
+                                lineNumber: 40,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/navigation.tsx",
-                        lineNumber: 37,
+                        lineNumber: 35,
                         columnNumber: 11
                     }, this)
                 ]

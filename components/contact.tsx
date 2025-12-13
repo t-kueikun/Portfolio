@@ -2,8 +2,7 @@
 
 import type { SVGProps } from "react"
 import { useInView } from "react-intersection-observer"
-import { ArrowUpRight, Mail, Github, Linkedin } from "lucide-react"
-import { LiquidGlass } from "@/components/liquid-glass"
+import { ArrowUpRight, Mail, Github } from "lucide-react"
 
 function XIcon(props: SVGProps<SVGSVGElement>) {
   return (
@@ -29,11 +28,12 @@ export function Contact() {
           <h2 className="text-sm font-medium text-muted-foreground mb-16 uppercase tracking-wider">Get In Touch</h2>
 
           <div className="space-y-16">
-            <p className="text-4xl md:text-5xl lg:text-6xl font-light leading-tight text-balance max-w-4xl">
-              新しいプロジェクトや協業の機会について、お気軽にご連絡ください。
+            <p className="text-4xl md:text-5xl lg:text-6xl font-light leading-tight text-balance max-w-4xl space-y-2">
+              <span className="block">新しいプロジェクトや協業の機会について、</span>
+              <span className="block">お気軽にご連絡ください。</span>
             </p>
 
-            <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
               <a
                 href="mailto:your.tokueikun@gmail.com"
                 className="group glass-light hover:bg-accent/5 p-8 transition-all duration-300 flex flex-col gap-4"
@@ -59,19 +59,6 @@ export function Contact() {
               </a>
 
               <a
-                href="https://linkedin.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group glass-light hover:bg-accent/5 p-8 transition-all duration-300 flex flex-col gap-4"
-              >
-                <Linkedin className="w-6 h-6 text-muted-foreground group-hover:text-accent transition-colors" />
-                <div className="flex items-center gap-2">
-                  <span className="text-sm">LinkedIn</span>
-                  <ArrowUpRight className="w-4 h-4 text-muted-foreground group-hover:text-accent group-hover:translate-x-1 group-hover:-translate-y-1 transition-all" />
-                </div>
-              </a>
-
-              <a
                 href="https://x.com/tokueikun_apple"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -88,22 +75,6 @@ export function Contact() {
         </div>
       </div>
 
-      <footer className="mt-32">
-        <div className="rounded-3xl border border-white/20 bg-white/12 p-4 backdrop-blur-3xl shadow-[0_30px_120px_-70px_rgba(0,0,0,0.9)]">
-          <div className="relative overflow-hidden rounded-2xl border border-white/15 bg-white/5">
-            <LiquidGlass height={260} src="/modern-tokyo-cityscape-night.jpg" />
-            {/* refracted caustics and streaks to make the glass pop */}
-            <div className="pointer-events-none absolute inset-0 mix-blend-screen opacity-80 [mask-image:radial-gradient(80%_95%_at_50%_12%,black,transparent)] bg-[conic-gradient(from_110deg_at_50%_25%,rgba(255,255,255,0.9),rgba(255,255,255,0),rgba(255,255,255,0.95),rgba(255,255,255,0))] blur-xl" />
-            <div className="pointer-events-none absolute inset-0 opacity-45 bg-[linear-gradient(115deg,rgba(255,255,255,0.45)_0%,rgba(255,255,255,0)_16%,rgba(255,255,255,0.6)_32%,rgba(255,255,255,0)_48%,rgba(255,255,255,0.4)_64%,rgba(255,255,255,0)_80%)] blur-sm" />
-            <div className="pointer-events-none absolute inset-0 bg-linear-to-t from-black/55 via-black/25 to-transparent" />
-            <div className="absolute inset-0 flex items-center justify-center">
-              <div className="glass-light px-4 py-2 rounded-full text-[10px] uppercase tracking-[0.2em] text-white/90">
-                Crafted with care · 2025
-              </div>
-            </div>
-          </div>
-        </div>
-      </footer>
     </section>
   )
 }

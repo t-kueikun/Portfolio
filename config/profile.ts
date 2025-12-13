@@ -1,9 +1,10 @@
 export const profile = {
   name: "Tokuei",
   role: "Designer & Developer",
-  description: "シンプルで美しいインターフェースを通じて、最高のユーザー体験を創造しています",
+  description: "15歳の学生として、デザインとコーディングを楽しみながら、多彩なプロジェクトに挑戦しています。",
   about: {
-    intro: "デザインとエンジニアリングの交差点で、美しく機能的なデジタル体験を創造しています。",
+    intro:
+      "様々なプロジェクトでプログラミングを軸に手を動かしつつ、一人旅で全都道府県制覇を目指し、旅先の建築や自然を撮り歩いています。",
     expertise: [
       "React & Next.js",
       "TypeScript",

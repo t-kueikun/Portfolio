@@ -8,9 +8,7 @@ const _inter = Inter({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Your Name - Portfolio",
-  description: "Developer & Designer Portfolio",
-  generator: "v0.app",
+  title: "Tokuei - Portfolio",
   icons: {
     icon: [
       {
