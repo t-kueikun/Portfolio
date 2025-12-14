@@ -151,7 +151,7 @@ const travelHistory = [
         location: "伊予市",
         country: "日本",
         date: "2024年11月",
-        image: "/Iyoshi.webp",
+        image: "/iyoshi.webp",
         highlights: [
             "下灘駅"
         ]
@@ -161,7 +161,7 @@ const travelHistory = [
         location: "京都",
         country: "日本",
         date: "2024年12月",
-        image: "/Kyoto.webp",
+        image: "/kyoto.webp",
         highlights: [
             "清水寺"
         ]
@@ -181,7 +181,7 @@ const travelHistory = [
         location: "秋田",
         country: "日本",
         date: "2025年2月",
-        image: "/Akita.webp",
+        image: "/akita.webp",
         highlights: [
             "秋田駅前"
         ]
@@ -191,7 +191,7 @@ const travelHistory = [
         location: "マーチソン滝",
         country: "ウガンダ",
         date: "2025年3月",
-        image: "/Uganda.webp",
+        image: "/uganda.webp",
         highlights: [
             "マーチソン・フォールズ国立公園"
         ]
@@ -231,7 +231,7 @@ const travelHistory = [
         location: "兵庫北部",
         country: "日本",
         date: "2025年7月",
-        image: "/Hyogo.webp",
+        image: "/hyogo.webp",
         highlights: [
             "鎧駅"
         ]
@@ -241,7 +241,7 @@ const travelHistory = [
         location: "バンコク",
         country: "タイ",
         date: "2025年8月",
-        image: "/Bangkok.webp",
+        image: "/bangkok.webp",
         highlights: [
             "バンコク"
         ]
